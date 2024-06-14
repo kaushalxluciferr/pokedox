@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+background: url(pokemon-bg.jpg) no-repeat;
+background-size: cover;
+}
+#content-box{
+    width: 500px;
+    height: 500px;
+    border: 10px solid lightgray;
+   background: url(pokeball.jpg) no-repeat;
+   background-size: cover;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+#pokemon-info{
+    width: 250px;
+    height: 500px;
+    /* background-color: cyan; */
+text-align: center;
+}
+#pokemon-list{ 
+width: 250px;
+height: 500px;
+/* background-color: yellow; */
+font-size: 18px;
+overflow-y: auto;
+}
+.pokemon-name{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+    
+}
+#pokemon-info img{
+    width: 160px;
+    height:  160px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: white;
+  
+}
+#pokemon-types{
+    margin-top: 10px;
+
+}
+.type-box{
+    padding: 3px;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.fire{
+background-color: orangered ;
+}
+#pokemon-description{
+    width: 230px;
+    height: 150px;
+    background-color: white;
+    border: 1px solid black;
+    color: orangered;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 2px;
+    font-size: 18px;
+    overflow-y: auto;
+}
